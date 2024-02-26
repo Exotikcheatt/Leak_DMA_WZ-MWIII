@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="overlay">
+      <UniqueIdentifier>{c55ad1b2-34aa-43cb-8df3-b6e3275a6195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="overlay\render">
+      <UniqueIdentifier>{1b4178d3-fed9-4922-8a2f-5e113aa7052b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="overlay\imgui">
+      <UniqueIdentifier>{68dac68e-3247-45b9-803c-dc326f355c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MWIII">
+      <UniqueIdentifier>{16f8123f-1340-4375-a649-70a2d6592f32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MWIII\game">
+      <UniqueIdentifier>{a6ca6aa6-ecd9-4b0c-b97a-927c11049741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MWIII\driver">
+      <UniqueIdentifier>{fa77ac46-4c81-4091-b140-15a3cfdb30fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MWIII\utilities">
+      <UniqueIdentifier>{ef17ed7d-1ae1-4923-b043-7520de61b597}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="overlay\font.h">
+      <Filter>overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\iconscpp.h">
+      <Filter>overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\render\render.h">
+      <Filter>overlay\render</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imconfig.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imgui.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imgui_impl_dx9.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imgui_impl_dx10.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imgui_impl_dx11.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imgui_impl_dx12.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imgui_impl_win32.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imgui_internal.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\ImGuiRender.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imstb_rectpack.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imstb_textedit.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imstb_truetype.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="MWIII\game\game.hpp">
+      <Filter>MWIII\game</Filter>
+    </ClInclude>
+    <ClInclude Include="MWIII\driver\dma.h">
+      <Filter>MWIII\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="MWIII\driver\leechcore.h">
+      <Filter>MWIII\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="MWIII\driver\vmmdll.h">
+      <Filter>MWIII\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="MWIII\utilities\utilities.hpp">
+      <Filter>MWIII\utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="overlay\icons.cpp">
+      <Filter>overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\imgui\imgui.cpp">
+      <Filter>overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\imgui\imgui_demo.cpp">
+      <Filter>overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\imgui\imgui_draw.cpp">
+      <Filter>overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\imgui\imgui_impl_dx9.cpp">
+      <Filter>overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\imgui\imgui_impl_dx10.cpp">
+      <Filter>overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\imgui\imgui_impl_dx11.cpp">
+      <Filter>overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\imgui\imgui_impl_dx12.cpp">
+      <Filter>overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\imgui\imgui_impl_win32.cpp">
+      <Filter>overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\imgui\imgui_tables.cpp">
+      <Filter>overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\imgui\imgui_widgets.cpp">
+      <Filter>overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\imgui\ImGuiRender.cpp">
+      <Filter>overlay\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MWIII\driver\FTD3XX.dll">
+      <Filter>MWIII\driver</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="MWIII\driver\FTD3XX.lib">
+      <Filter>MWIII\driver</Filter>
+    </Library>
+    <Library Include="MWIII\driver\leechcore.lib">
+      <Filter>MWIII\driver</Filter>
+    </Library>
+    <Library Include="MWIII\driver\vmm.lib">
+      <Filter>MWIII\driver</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
